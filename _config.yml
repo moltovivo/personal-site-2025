@@ -13,6 +13,13 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - SITE_DOCUMENTATION.md
+  - PHOTOS_README.md
+  - CHANGES_SUMMARY.md
+  - DEPLOYMENT_SUCCESS.md
+  - GITHUB_DEPLOYMENT.md
+  - MOBILE_REVIEW.md
+  - seperate-pages.md
 
 # Collections
 collections:
