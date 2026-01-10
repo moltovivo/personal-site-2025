@@ -1,0 +1,25 @@
+# Photos Gallery
+# Add new photos by adding entries to this file following the format below
+#
+# Format:
+# - image: path/to/image.jpg (relative to assets/images/)
+#   caption: Your caption text here
+#   alt: Alt text for accessibility
+#   project: Optional project name or category
+#
+# Example entries below - replace with your actual photos
+
+- image: photos/project1.jpg
+  caption: Building a real-time market data pipeline for trading systems
+  alt: Market data pipeline architecture
+  project: Market Data Pipeline
+
+- image: photos/project2.jpg
+  caption: Presenting quantitative research at industry conference
+  alt: Conference presentation
+  project: Research & Speaking
+
+- image: photos/project3.jpg
+  caption: Collaborating with team on portfolio optimization models
+  alt: Team collaboration session
+  project: Portfolio Analytics

@@ -1,0 +1,27 @@
+title: Aaron Mulvihill
+description: Personal website
+url: ""
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Collections
+collections:
+  podcasts:
+    output: false
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
