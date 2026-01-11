@@ -6,118 +6,118 @@
 #   caption: Your caption text
 #   tag: Work or Adventure (or any tag you want)
 
+- image: photos/30.jpg
+  caption: "Some promo shots at a PVC pipe factory."
+  tag: Infrastructure & Manufacturing
+
 - image: photos/1.jpg
   caption: "At an AI agent hackathon in San Francisco with some new friends and teammates."
   tag: Fun
 
-- image: photos/2.jpg
-  caption: "Kicking off a webcast on venture capital."
-  tag: Finance
-
-- image: photos/3.jpg
-  caption: "At one of several investment forums where I spoke with clients about alternative investments. This was in Seattle I think."
-  tag: Finance
-
-- image: photos/4.jpg
-  caption: "It was an honor to join a panel of experts on private markets at Fordham University."
-  tag: Finance
+- image: photos/27.jpg
+  caption: "At a work golf outing and a young gator is guarding the water hazard."
+  tag: Infrastructure & Manufacturing
 
 - image: photos/6.jpg
   caption: "Speaking at a conference in Denver"
   tag: Finance
 
-- image: photos/7.jpg
-  caption: "Skiing, maybe in Vermont."
-  tag: Fun
-
-- image: photos/8.jpg
-  caption: "The first small plane I logged some hours on. (Netherlands)"
-  tag: Fun
-
-- image: photos/9.jpg
-  caption: "Kayaking"
-  tag: Fun
-
-- image: photos/10.jpg
-  caption: "With the JPMorgan alternatives A-team in London."
-  tag: Finance
-
-- image: photos/11.jpg
-  caption: "Helicopter lessons in Anchorage."
+- image: photos/24.jpg
+  caption: "Dune surfing at Great Sand Dunes National Park, Colorado."
   tag: Fun
 
 - image: photos/12.jpg
   caption: "We practiced auto-rotation and engine failure recoveries this day."
   tag: Fun
 
-- image: photos/13.jpg
-  caption: "Somewhere in North Carolina."
-  tag: Fun
-
-- image: photos/14.jpg
-  caption: "About to set up camp on a shore with a nice glacier view and some grizzly neighbors not far off."
-  tag: Fun
-
-- image: photos/15.jpg
-  caption: "Kayaking on the Kenai Peninsula, Alaska."
-  tag: Fun
-
 - image: photos/16.jpg
   caption: "With my team, on an energy grid improvement we built."
   tag: Infrastructure & Manufacturing
 
-- image: photos/17.jpg
-  caption: "With my team in Long Island NY, building energy grid infrastructure."
+- image: photos/7.jpg
+  caption: "Skiing, maybe in Vermont."
+  tag: Fun
+
+- image: photos/28.jpg
+  caption: "Celebrating St. Patrick's day and promoting safety at a manufacturing plant."
   tag: Infrastructure & Manufacturing
 
-- image: photos/18.jpg
-  caption: "A trip to Japan to meet with clients. Noice the beautiful diorama of agricultural history."
+- image: photos/23.jpg
+  caption: "With my team at a PVC pipe factory in upstate NY."
+  tag: Infrastructure & Manufacturing
+
+- image: photos/10.jpg
+  caption: "With the JPMorgan alternatives A-team in London."
   tag: Finance
 
 - image: photos/19.jpg
   caption: "Took a ride in this WW2-era Army trainer PT-17 Stearman biplane off the coast of Georgia."
   tag: Fun
 
-- image: photos/21.jpg
-  caption: "A client webcast on investment trends in real estate."
-  tag: Finance
-
-- image: photos/22.jpg
-  caption: "Hiking in Colorado, during Covid."
+- image: photos/8.jpg
+  caption: "The first small plane I logged some hours on. (Netherlands)"
   tag: Fun
 
-- image: photos/23.jpg
-  caption: "With my team at a PVC pipe factory in upstate NY."
-  tag: Infrastructure & Manufacturing
-
-- image: photos/24.jpg
-  caption: "Dune surfing at Great Sand Dunes National Park, Colorado."
+- image: photos/15.jpg
+  caption: "Kayaking on the Kenai Peninsula, Alaska."
   tag: Fun
-
-- image: photos/25.jpg
-  caption: "With my team at a precast concrete manufacturer. Easy to spot me as I'm the one wearing lavender."
-  tag: Infrastructure & Manufacturing
 
 - image: photos/26.jpg
   caption: "With some heavy yellow iron on a heavy snow day."
   tag: Infrastructure & Manufacturing
 
-- image: photos/27.jpg
-  caption: "At a work golf outing and a young gator is guarding the water hazard."
+- image: photos/32.jpg
+  caption: "I've taken up horse riding and now ride a couple of times a year."
+  tag: Fun
+
+- image: photos/18.jpg
+  caption: "A trip to Japan to meet with clients. Noice the beautiful diorama of agricultural history."
+  tag: Finance
+
+- image: photos/4.jpg
+  caption: "It was an honor to join a panel of experts on private markets at Fordham University."
+  tag: Finance
+
+- image: photos/25.jpg
+  caption: "With my team at a precast concrete manufacturer. Easy to spot me as I'm the one wearing lavender."
   tag: Infrastructure & Manufacturing
 
-- image: photos/28.jpg
-  caption: "Celebrating St. Patrick's day and promoting safety at a manufacturing plant."
-  tag: Infrastructure & Manufacturing
+- image: photos/9.jpg
+  caption: "Kayaking"
+  tag: Fun
 
 - image: photos/29.jpg
   caption: "Some promo shots at a PVC pipe factory."
   tag: Infrastructure & Manufacturing
 
-- image: photos/30.jpg
-  caption: "Some promo shots at a PVC pipe factory."
+- image: photos/2.jpg
+  caption: "Kicking off a webcast on venture capital."
+  tag: Finance
+
+- image: photos/17.jpg
+  caption: "With my team in Long Island NY, building energy grid infrastructure."
   tag: Infrastructure & Manufacturing
 
-- image: photos/32.jpg
-  caption: "I've taken up horse riding and now ride a couple of times a year."
+- image: photos/21.jpg
+  caption: "A client webcast on investment trends in real estate."
+  tag: Finance
+
+- image: photos/3.jpg
+  caption: "At one of several investment forums where I spoke with clients about alternative investments. This was in Seattle I think."
+  tag: Finance
+
+- image: photos/11.jpg
+  caption: "Helicopter lessons in Anchorage."
+  tag: Fun
+
+- image: photos/14.jpg
+  caption: "About to set up camp on a shore with a nice glacier view and some grizzly neighbors not far off."
+  tag: Fun
+
+- image: photos/22.jpg
+  caption: "Hiking in Colorado, during Covid."
+  tag: Fun
+
+- image: photos/13.jpg
+  caption: "Somewhere in North Carolina."
   tag: Fun
