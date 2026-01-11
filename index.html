@@ -7,14 +7,14 @@ show_scrollspy: true
 <section id="about">
   <div class="about-hero">
     <div class="profile-section">
-      <img src="{{ '/assets/images/mulvihill-aaron-profile.png' | relative_url }}" alt="Aaron Mulvihill" class="profile-image">
+      <img src="/assets/images/mulvihill-aaron-profile.png" alt="Aaron Mulvihill" class="profile-image">
       <div class="social-icons">
         <div class="social-icons-row">
           <a href="https://www.linkedin.com/in/aaronmulvihill/" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <img src="{{ '/assets/images/icon-linkedin.svg' | relative_url }}" alt="LinkedIn" class="social-icon">
+            <img src="/assets/images/icon-linkedin.svg" alt="LinkedIn" class="social-icon">
           </a>
           <a href="https://github.com/moltovivo" target="_blank" rel="noopener" aria-label="GitHub">
-            <img src="{{ '/assets/images/icon-github.svg' | relative_url }}" alt="GitHub" class="social-icon">
+            <img src="/assets/images/icon-github.svg" alt="GitHub" class="social-icon">
           </a>
         </div>
         <a href="https://am.jpmorgan.com/us/en/asset-management/adv/bios/aaron-mulvihill/" target="_blank" rel="noopener" aria-label="JPMorgan Bio" class="bio-link">JPMorgan Bio</a>
@@ -50,7 +50,7 @@ show_scrollspy: true
   <div class="github-contributions" id="github">
     <h3>GitHub Contributions 2025</h3>
     <a href="https://github.com/moltovivo" target="_blank" rel="noopener">
-      <img src="{{ '/assets/images/github-2025.png' | relative_url }}" alt="GitHub Contribution Chart 2025" class="contribution-chart">
+      <img src="/assets/images/github-2025.png" alt="GitHub Contribution Chart 2025" class="contribution-chart">
     </a>
   </div>
 </section>
@@ -61,7 +61,7 @@ show_scrollspy: true
   <!-- Featured Podcast -->
   <div class="podcast-featured">
     <a href="https://www.youtube.com/watch?v=0qxtk9_cNis" target="_blank" rel="noopener" class="featured-card">
-      <img src="{{ '/assets/images/podcast_tom.png' | relative_url }}" alt="Real estate's new reality with J.P. Morgan's Thomas Kennedy" class="featured-image">
+      <img src="/assets/images/podcast_tom.png" alt="Real estate's new reality with J.P. Morgan's Thomas Kennedy" class="featured-image">
       <div class="featured-content">
         <span class="podcast-tag">Real estate</span>
         <h3>Real estate's new reality with J.P. Morgan's Thomas Kennedy</h3>
@@ -250,7 +250,7 @@ show_scrollspy: true
   <h2>Videos</h2>
   <div class="video-grid">
     <a href="https://www.youtube.com/watch?v=_LB8nWMrZos" target="_blank" rel="noopener" class="video-card">
-      <img src="{{ '/assets/images/yahoo-finance-market-domination.png' | relative_url }}" alt="Talking AI and Private Equity on Market Domination with Josh Lipton" class="video-thumbnail">
+      <img src="/assets/images/yahoo-finance-market-domination.png" alt="Talking AI and Private Equity on Market Domination with Josh Lipton" class="video-thumbnail">
       <div class="video-content">
         <h3>Talking AI and Private Equity on Market Domination with Josh Lipton</h3>
       </div>
@@ -273,7 +273,7 @@ show_scrollspy: true
   <div class="photo-grid">
     {% for photo in site.data.photos %}
     <div class="photo-item" data-tag="{{ photo.tag }}">
-      <img src="{{ '/assets/images/' | append: photo.image | relative_url }}" alt="{{ photo.alt }}" class="photo-image" loading="lazy">
+      <img src="/assets/images/{{ photo.image }}" alt="{{ photo.alt }}" class="photo-image" loading="lazy">
       <div class="photo-caption">
         <p>{{ photo.caption }}</p>
         {% if photo.tag %}
