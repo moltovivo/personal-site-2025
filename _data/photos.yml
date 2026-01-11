@@ -1,25 +1,135 @@
 # Photos Gallery
-# Add new photos by adding entries to this file following the format below
+# Add new photos by adding entries to this file
 #
 # Format:
-# - image: path/to/image.jpg (relative to assets/images/)
-#   caption: Your caption text here
-#   alt: Alt text for accessibility
-#   project: Optional project name or category
-#
-# Example entries below - replace with your actual photos
+# - image: photos/N.jpg
+#   caption: Your caption text
+#   tag: Work or Adventure (or any tag you want)
 
-- image: photos/project1.jpg
-  caption: Building a real-time market data pipeline for trading systems
-  alt: Market data pipeline architecture
-  project: Market Data Pipeline
+- image: photos/1.jpg
+  caption: "1"
+  tag: Work
 
-- image: photos/project2.jpg
-  caption: Presenting quantitative research at industry conference
-  alt: Conference presentation
-  project: Research & Speaking
+- image: photos/2.jpg
+  caption: "2"
+  tag: Adventure
 
-- image: photos/project3.jpg
-  caption: Collaborating with team on portfolio optimization models
-  alt: Team collaboration session
-  project: Portfolio Analytics
+- image: photos/3.jpg
+  caption: "3"
+  tag: Work
+
+- image: photos/4.jpg
+  caption: "4"
+  tag: Adventure
+
+- image: photos/5.jpg
+  caption: "5"
+  tag: Work
+
+- image: photos/6.jpg
+  caption: "6"
+  tag: Adventure
+
+- image: photos/7.jpg
+  caption: "7"
+  tag: Work
+
+- image: photos/8.jpg
+  caption: "8"
+  tag: Adventure
+
+- image: photos/9.jpg
+  caption: "9"
+  tag: Work
+
+- image: photos/10.jpg
+  caption: "10"
+  tag: Adventure
+
+- image: photos/11.jpg
+  caption: "11"
+  tag: Work
+
+- image: photos/12.jpg
+  caption: "12"
+  tag: Adventure
+
+- image: photos/13.jpg
+  caption: "13"
+  tag: Work
+
+- image: photos/14.jpg
+  caption: "14"
+  tag: Adventure
+
+- image: photos/15.jpg
+  caption: "15"
+  tag: Work
+
+- image: photos/16.jpg
+  caption: "16"
+  tag: Adventure
+
+- image: photos/17.jpg
+  caption: "17"
+  tag: Work
+
+- image: photos/18.jpg
+  caption: "18"
+  tag: Adventure
+
+- image: photos/19.jpg
+  caption: "19"
+  tag: Work
+
+- image: photos/20.jpg
+  caption: "20"
+  tag: Adventure
+
+- image: photos/21.jpg
+  caption: "21"
+  tag: Work
+
+- image: photos/22.jpg
+  caption: "22"
+  tag: Adventure
+
+- image: photos/23.jpg
+  caption: "23"
+  tag: Work
+
+- image: photos/24.jpg
+  caption: "24"
+  tag: Adventure
+
+- image: photos/25.jpg
+  caption: "25"
+  tag: Work
+
+- image: photos/26.jpg
+  caption: "26"
+  tag: Adventure
+
+- image: photos/27.jpg
+  caption: "27"
+  tag: Work
+
+- image: photos/28.jpg
+  caption: "28"
+  tag: Adventure
+
+- image: photos/29.jpg
+  caption: "29"
+  tag: Work
+
+- image: photos/30.jpg
+  caption: "30"
+  tag: Adventure
+
+- image: photos/31.jpg
+  caption: "31"
+  tag: Work
+
+- image: photos/32.jpg
+  caption: "32"
+  tag: Adventure

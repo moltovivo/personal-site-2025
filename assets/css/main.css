@@ -283,6 +283,10 @@ img {
   border-top: 1px solid var(--border-color);
 }
 
+.job-history-integrated {
+  margin-top: 1.5rem;
+}
+
 .job-history h3 {
   font-size: 1.1rem;
   font-weight: 600;
@@ -344,7 +348,7 @@ section h2 {
 
 /* Podcast Section */
 .podcast-featured {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .featured-card {
@@ -353,6 +357,7 @@ section h2 {
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.2s, box-shadow 0.2s;
+  max-width: 600px;
 }
 
 .featured-card:hover {
@@ -368,13 +373,13 @@ section h2 {
 }
 
 .featured-content {
-  padding: 1rem;
+  padding: 0.75rem;
 }
 
 .featured-content h3 {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 500;
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
 }
 
 .podcast-grid {
@@ -408,17 +413,27 @@ section h2 {
 .podcast-content {
   padding: 0.75rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.podcast-content h3 {
+  font-size: 0.85rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin: 0;
+  color: var(--text-color);
 }
 
 .podcast-tag {
-  font-size: 0.75rem;
-  padding: 0.3rem 0.7rem;
+  font-size: 0.7rem;
+  padding: 0.3rem 0.6rem;
   background: var(--border-color);
   border-radius: 4px;
   color: var(--text-muted);
   display: inline-block;
+  width: fit-content;
 }
 
 /* Content Lists */
@@ -587,17 +602,47 @@ section h2 {
   margin-bottom: 1.5rem;
 }
 
+.photo-filters {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--border-color);
+  background: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  transition: all 0.2s;
+}
+
+.filter-btn:hover {
+  border-color: var(--link-color);
+  color: var(--link-color);
+}
+
+.filter-btn.active {
+  background: var(--link-color);
+  border-color: var(--link-color);
+  color: white;
+}
+
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
 }
 
 .photo-item {
   background: var(--card-bg);
   border-radius: 8px;
   overflow: hidden;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s, opacity 0.3s;
+  cursor: pointer;
 }
 
 .photo-item:hover {
@@ -605,30 +650,108 @@ section h2 {
   box-shadow: var(--shadow);
 }
 
+.photo-item.hidden {
+  display: none;
+}
+
 .photo-image {
   width: 100%;
-  height: 240px;
+  height: 220px;
   object-fit: cover;
 }
 
 .photo-caption {
-  padding: 1rem;
+  padding: 0.75rem 1rem;
 }
 
 .photo-caption p {
-  font-size: 0.9rem;
-  line-height: 1.5;
-  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  margin-bottom: 0.4rem;
   color: var(--text-color);
 }
 
-.photo-project {
+.photo-tag {
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--link-color);
-  padding: 0.2rem 0.6rem;
+  padding: 0.15rem 0.5rem;
   background: var(--border-color);
+  border-radius: 3px;
+}
+
+/* Lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lightbox.active {
+  display: flex;
+}
+
+.lightbox-image {
+  max-width: 90%;
+  max-height: 80vh;
+  object-fit: contain;
   border-radius: 4px;
+}
+
+.lightbox-caption {
+  color: white;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  max-width: 600px;
+}
+
+.lightbox-close,
+.lightbox-prev,
+.lightbox-next {
+  position: absolute;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.lightbox-close:hover,
+.lightbox-prev:hover,
+.lightbox-next:hover {
+  opacity: 1;
+}
+
+.lightbox-close {
+  top: 1rem;
+  right: 1rem;
+  font-size: 2.5rem;
+}
+
+.lightbox-prev {
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+}
+
+.lightbox-next {
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
 }
 
 /* Footer */
