@@ -754,6 +754,39 @@ section h2 {
   font-size: 3rem;
 }
 
+/* See All Button */
+.see-all-btn {
+  display: block;
+  margin: 1.5rem auto 0;
+  padding: 0.6rem 1.5rem;
+  background: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.see-all-btn:hover {
+  border-color: var(--link-color);
+  color: var(--link-color);
+}
+
+.see-all-btn.expanded {
+  display: none;
+}
+
+.podcast-extra,
+.article-extra {
+  display: none;
+}
+
+.podcast-extra.visible,
+.article-extra.visible {
+  display: flex;
+}
+
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--border-color);

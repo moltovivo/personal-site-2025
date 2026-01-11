@@ -1,7 +1,7 @@
 title: Aaron Mulvihill
 description: Personal website
-url: "https://moltovivo.github.io"
-baseurl: "/personal-site-2025"
+url: "https://aaronmulvihill.com"
+baseurl: ""
 
 # Build settings
 markdown: kramdown

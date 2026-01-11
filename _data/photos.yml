@@ -7,129 +7,117 @@
 #   tag: Work or Adventure (or any tag you want)
 
 - image: photos/1.jpg
-  caption: "1"
-  tag: Work
+  caption: "At an AI agent hackathon in San Francisco with some new friends and teammates."
+  tag: Fun
 
 - image: photos/2.jpg
-  caption: "2"
-  tag: Adventure
+  caption: "Kicking off a webcast on venture capital."
+  tag: Finance
 
 - image: photos/3.jpg
-  caption: "3"
-  tag: Work
+  caption: "At one of several investment forums where I spoke with clients about alternative investments. This was in Seattle I think."
+  tag: Finance
 
 - image: photos/4.jpg
-  caption: "4"
-  tag: Adventure
-
-- image: photos/5.jpg
-  caption: "5"
-  tag: Work
+  caption: "It was an honor to join a panel of experts on private markets at Fordham University."
+  tag: Finance
 
 - image: photos/6.jpg
-  caption: "6"
-  tag: Adventure
+  caption: "Speaking at a conference in Denver"
+  tag: Finance
 
 - image: photos/7.jpg
-  caption: "7"
-  tag: Work
+  caption: "Skiing, maybe in Vermont."
+  tag: Fun
 
 - image: photos/8.jpg
-  caption: "8"
-  tag: Adventure
+  caption: "The first small plane I logged some hours on. (Netherlands)"
+  tag: Fun
 
 - image: photos/9.jpg
-  caption: "9"
-  tag: Work
+  caption: "Kayaking"
+  tag: Fun
 
 - image: photos/10.jpg
-  caption: "10"
-  tag: Adventure
+  caption: "With the JPMorgan alternatives A-team in London."
+  tag: Finance
 
 - image: photos/11.jpg
-  caption: "11"
-  tag: Work
+  caption: "Helicopter lessons in Anchorage."
+  tag: Fun
 
 - image: photos/12.jpg
-  caption: "12"
-  tag: Adventure
+  caption: "We practiced auto-rotation and engine failure recoveries this day."
+  tag: Fun
 
 - image: photos/13.jpg
-  caption: "13"
-  tag: Work
+  caption: "Somewhere in North Carolina."
+  tag: Fun
 
 - image: photos/14.jpg
-  caption: "14"
-  tag: Adventure
+  caption: "Camping/kayaking in Alaska."
+  tag: Fun
 
 - image: photos/15.jpg
-  caption: "15"
-  tag: Work
+  caption: "Kayaking on the Kenai Peninsula, Alaska."
+  tag: Fun
 
 - image: photos/16.jpg
-  caption: "16"
-  tag: Adventure
+  caption: "With my team, on an energy grid improvement we built."
+  tag: Infrastructure & Manufacturing
 
 - image: photos/17.jpg
-  caption: "17"
-  tag: Work
+  caption: "With my team in Long Island NY, building energy grid infrastructure."
+  tag: Infrastructure & Manufacturing
 
 - image: photos/18.jpg
-  caption: "18"
-  tag: Adventure
+  caption: "A trip to Japan to meet with clients. Noice the beautiful diorama of agricultural history."
+  tag: Finance
 
 - image: photos/19.jpg
-  caption: "19"
-  tag: Work
-
-- image: photos/20.jpg
-  caption: "20"
-  tag: Adventure
+  caption: "Took a ride in this WW2-era Army trainer PT-17 Stearman biplane off the coast of Georgia."
+  tag: Fun
 
 - image: photos/21.jpg
-  caption: "21"
-  tag: Work
+  caption: "A client webcast on investment trends in real estate."
+  tag: Finance
 
 - image: photos/22.jpg
-  caption: "22"
-  tag: Adventure
+  caption: "Hiking in Colorado, during Covid."
+  tag: Fun
 
 - image: photos/23.jpg
-  caption: "23"
-  tag: Work
+  caption: "With my team at a PVC pipe factory in upstate NY."
+  tag: Infrastructure & Manufacturing
 
 - image: photos/24.jpg
-  caption: "24"
-  tag: Adventure
+  caption: "Dune surfing at Great Sand Dunes National Park, Colorado."
+  tag: Fun
 
 - image: photos/25.jpg
-  caption: "25"
-  tag: Work
+  caption: "With my team at a precast concrete manufacturer. Easy to spot me as I'm the one wearing lavender."
+  tag: Infrastructure & Manufacturing
 
 - image: photos/26.jpg
-  caption: "26"
-  tag: Adventure
+  caption: "With some heavy yellow iron on a heavy snow day."
+  tag: Infrastructure & Manufacturing
 
 - image: photos/27.jpg
-  caption: "27"
-  tag: Work
+  caption: "At a work golf outing and a young gator is guarding the water hazard."
+  tag: Infrastructure & Manufacturing
 
 - image: photos/28.jpg
-  caption: "28"
-  tag: Adventure
+  caption: "Celebrating St. Patrick's day and promoting safety at a manufacturing plant."
+  tag: Infrastructure & Manufacturing
 
 - image: photos/29.jpg
-  caption: "29"
-  tag: Work
+  caption: "Some promo shots at a PVC pipe factory."
+  tag: Infrastructure & Manufacturing
 
 - image: photos/30.jpg
-  caption: "30"
-  tag: Adventure
-
-- image: photos/31.jpg
-  caption: "31"
-  tag: Work
+  caption: "Some promo shots at a PVC pipe factory."
+  tag: Infrastructure & Manufacturing
 
 - image: photos/32.jpg
-  caption: "32"
-  tag: Adventure
+  caption: "I've taken up horse riding and now ride a couple of times a year."
+  tag: Fun

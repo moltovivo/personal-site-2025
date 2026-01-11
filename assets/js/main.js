@@ -170,3 +170,23 @@ if (lightbox) {
     if (e.key === 'ArrowRight') showNext();
   });
 }
+
+// See All Button Functionality
+const podcastsSeeAll = document.getElementById('podcastsSeeAll');
+const writingSeeAll = document.getElementById('writingSeeAll');
+
+if (podcastsSeeAll) {
+  podcastsSeeAll.addEventListener('click', () => {
+    const extraItems = document.querySelectorAll('.podcast-extra');
+    extraItems.forEach(item => item.classList.add('visible'));
+    podcastsSeeAll.classList.add('expanded');
+  });
+}
+
+if (writingSeeAll) {
+  writingSeeAll.addEventListener('click', () => {
+    const extraItems = document.querySelectorAll('.article-extra');
+    extraItems.forEach(item => item.classList.add('visible'));
+    writingSeeAll.classList.add('expanded');
+  });
+}
