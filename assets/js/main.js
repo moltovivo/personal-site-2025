@@ -190,3 +190,26 @@ if (writingSeeAll) {
     writingSeeAll.classList.add('expanded');
   });
 }
+
+// GitHub Carousel
+const githubItems = document.querySelectorAll('.github-carousel-item');
+const githubPrev = document.querySelector('.github-prev');
+const githubNext = document.querySelector('.github-next');
+let currentGithubIndex = 0;
+
+function showGithubItem(index) {
+  githubItems.forEach(item => item.classList.remove('active'));
+  githubItems[index].classList.add('active');
+}
+
+if (githubPrev && githubNext && githubItems.length > 0) {
+  githubPrev.addEventListener('click', () => {
+    currentGithubIndex = (currentGithubIndex - 1 + githubItems.length) % githubItems.length;
+    showGithubItem(currentGithubIndex);
+  });
+
+  githubNext.addEventListener('click', () => {
+    currentGithubIndex = (currentGithubIndex + 1) % githubItems.length;
+    showGithubItem(currentGithubIndex);
+  });
+}

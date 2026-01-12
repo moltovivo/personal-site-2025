@@ -283,11 +283,11 @@ img {
   border-top: 1px solid var(--border-color);
 }
 
-.job-history-integrated {
+.career-section {
   margin-top: 1.5rem;
 }
 
-.job-history h3 {
+.career-section h3 {
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -319,6 +319,51 @@ img {
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 1rem;
+}
+
+.github-carousel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.github-carousel-container {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.github-carousel-item {
+  display: none;
+}
+
+.github-carousel-item.active {
+  display: block;
+}
+
+.github-year-label {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.github-nav {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.github-nav:hover {
+  border-color: var(--link-color);
+  color: var(--link-color);
 }
 
 .contribution-chart {
