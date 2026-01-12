@@ -213,3 +213,61 @@ if (githubPrev && githubNext && githubItems.length > 0) {
     showGithubItem(currentGithubIndex);
   });
 }
+
+// Career Map Interaction
+const timelineItems = document.querySelectorAll('.timeline li[data-location]');
+const locationPins = document.querySelectorAll('.location-pins .pin');
+
+// Location coordinates (latitude, longitude)
+const locations = {
+  'new-york': { lat: 40.7128, lon: -74.0060 },
+  'binghamton': { lat: 42.0987, lon: -75.9180 },
+  'hartford': { lat: 41.7658, lon: -72.6734 },
+  'atlanta': { lat: 33.7490, lon: -84.3880 },
+  'amsterdam': { lat: 52.3676, lon: 4.9041 },
+  'moscow': { lat: 55.7558, lon: 37.6173 },
+  'dublin': { lat: 53.3498, lon: -6.2603 }
+};
+
+// Position pins based on coordinates using equirectangular projection
+const svgWidth = 800;
+const svgHeight = 400;
+
+locationPins.forEach(pin => {
+  const loc = pin.getAttribute('data-location');
+  if (locations[loc]) {
+    const coords = locations[loc];
+    // Convert lat/lon to SVG coordinates
+    const x = (coords.lon + 180) * (svgWidth / 360);
+    const y = (90 - coords.lat) * (svgHeight / 180);
+    pin.setAttribute('cx', x);
+    pin.setAttribute('cy', y);
+  }
+});
+
+// Set active location pin
+function setActiveLocation(location) {
+  locationPins.forEach(pin => {
+    if (pin.getAttribute('data-location') === location) {
+      pin.classList.add('active');
+    } else {
+      pin.classList.remove('active');
+    }
+  });
+}
+
+// Set default to first location (New York) on page load
+if (timelineItems.length > 0) {
+  const firstLocation = timelineItems[0].getAttribute('data-location');
+  if (firstLocation) {
+    setActiveLocation(firstLocation);
+  }
+}
+
+// Add hover listeners to timeline items
+timelineItems.forEach(item => {
+  item.addEventListener('mouseenter', () => {
+    const location = item.getAttribute('data-location');
+    setActiveLocation(location);
+  });
+});
