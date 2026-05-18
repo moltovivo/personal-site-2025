@@ -18,10 +18,6 @@
   caption: "At a work golf outing and a young gator is guarding the water hazard."
   tag: Infrastructure & Manufacturing
 
-- image: photos/6.jpg
-  caption: "Speaking at a conference in Denver"
-  tag: Finance
-
 - image: photos/24.jpg
   caption: "Dune surfing at Great Sand Dunes National Park, Colorado."
   tag: Fun
@@ -46,10 +42,6 @@
   caption: "With my team at a PVC pipe factory in upstate NY."
   tag: Infrastructure & Manufacturing
 
-- image: photos/10.jpg
-  caption: "With the JPMorgan alternatives A-team in London."
-  tag: Finance
-
 - image: photos/19.jpg
   caption: "Took a ride in this WW2-era Army trainer PT-17 Stearman biplane off the coast of Georgia."
   tag: Fun
@@ -70,14 +62,6 @@
   caption: "I've taken up horse riding and now ride a couple of times a year."
   tag: Fun
 
-- image: photos/18.jpg
-  caption: "A trip to Japan to meet with clients. Noice the beautiful diorama of agricultural history."
-  tag: Finance
-
-- image: photos/4.jpg
-  caption: "It was an honor to join a panel of experts on private markets at Fordham University."
-  tag: Finance
-
 - image: photos/25.jpg
   caption: "With my team at a precast concrete manufacturer. Easy to spot me as I'm the one wearing lavender."
   tag: Infrastructure & Manufacturing
@@ -90,21 +74,9 @@
   caption: "In full safety gear at a large-scale pipe manufacturing plant that I managed for some time."
   tag: Infrastructure & Manufacturing
 
-- image: photos/2.jpg
-  caption: "Kicking off a webcast on venture capital."
-  tag: Finance
-
 - image: photos/17.jpg
   caption: "With my team in Long Island NY, building energy grid infrastructure."
   tag: Infrastructure & Manufacturing
-
-- image: photos/21.jpg
-  caption: "A client webcast on investment trends in real estate."
-  tag: Finance
-
-- image: photos/3.jpg
-  caption: "At one of several investment forums where I spoke with clients about alternative investments. This was in Seattle I think."
-  tag: Finance
 
 - image: photos/11.jpg
   caption: "Helicopter lessons in Anchorage."
